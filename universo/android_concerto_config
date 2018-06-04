@@ -6,7 +6,7 @@
             "environment": "production",
             "global": {
                 "requestor": "nbcuniverso",
-                "service_domain": "https://api.nbcuni.com/networks/nbcuniverso/",
+                "service_domain": "https://api.nbcuni.com/tve/nbcuniverso/",
                 "concerto_service_domain": "https://api.nbcuni.com/networks/",
                 "mvpd_endpoint": "https://api.nbcuni.com/tve/mvpd/service/v2/entitlements",
                 "mvpd_details_endpoint": "https://api.nbcuni.com/tve/mvpd/service/custom-feed/mvpd_details",
@@ -14,7 +14,7 @@
                 "live_schedule_endpoint": "https://api.nbcuni.com/networks/nbcuniverso/j/schedules",
                 "promo_schedule_endpoint": "https://promotions.nbcuniversaltech.com/content.json",
                 "preview_endpoint": "http://feed.theplatform.com/f/HNK2IC/prod-partners-android-clip?form=json&byProvider=nbcuniverso",
-                "promo_endpoint": "/j/promos?filter%5Bslug%5D=olympicspromotion&include=images,media",
+                "promo_endpoint": "/j/promos?filter%5Bslug%5D=promo&include=images,media",
                 "settings_path": "all_settings",
                 "new_settings": "https://policies.prod.nbcuniversaltech.com/all/%s",
                 "adode_pass_endpoint": "sp.auth.adobe.com/adobe-services",
@@ -28,13 +28,14 @@
                 "cloud_path_app_3_3_x": "cloudpath_nbcu_fullauth_universo_android_prod_wglz6wr2gvc7hlzzj1qszcfefap6x0foelnof83t",
                 "cloud_path_app_3_3_18_2": "cloudpath_nbcu_fullauth_universo_android_prod_moat_pvol48jp54unf4zmhiz4fhd2nbpj9sh0u1jvpnzw",
                 "cloud_path_app_3_3_18_2_2": "cloudpath_nbcu_universo_android_moatlive_isuxladgqyhozt7wr6hj8uy8eiar3zscfh6bj1l2",
+                "cloud_path_app_3_4_0": "cloudpath_nbcu_universo_android_moatlive_isuxladgqyhozt7wr6hj8uy8eiar3zscfh6bj1l2",
                 "audience_manager_dpid": "20914",
                 "mixpanel_token": "6ea7efd2dd7ff3cd861ec80c3a84a024",
                 "mixpanel_sender_id": "1039636513008",
                 "omniture_json": "ADBMobileconfig.json",
                 "kochava_app_id": "konbc-universo----android----nbcu5605bcfd280b6",
                 "asset": "http://tve-assets.com/android/assets.zip",
-                "api_key": "zJxXzjN6bOqiTopNW4CT/HAgMWtagcuBWzheFcUXcN2e/wIYeOnOJRZgB4SJgkL5",
+                "api_key": "iygxjIsf9WddirkcqZN2mTAS68OzC8iwb+PfNo+e/I4=",
                 "concerto_api_key": "iygxjIsf9WddirkcqZN2mTAS68OzC8iwb+PfNo+e/I4=",
                 "live_schedule_api_key": "t88wyukfgna2a9bvrz3y96ew",
                 "flush_cache": false,
@@ -43,25 +44,28 @@
                 "cpc_restart_count": 3,
                 "app_version": 3,
                 "is_olympics": false,
-                "sports_package": "air.com.nbcuni.com.nbcsports.liveextra",
+                "sports_package": "air.com.nbcuni.com.telemundo.envivo",
                 "sports_deeplink": "air.com.nbcuni.com.nbcsports.liveextra://brand/rio-olympics/",
                 "market_deeplink": "http://play.google.com/store/apps/details?id=air.com.nbcuni.com.nbcsports.liveextra",
-                "olympics_images": "[{\"height\":1134,\"imageUrl\":\"http://tve-static-bravotv.nbcuni.com/images/olympics1200x1134.jpg\",\"name\":\"program_portrait_1200_1134\",\"udpate\":false,\"width\":1200},{\"height\":912,\"imageUrl\":\"http://tve-static-bravotv.nbcuni.com/images/olympics1920x912.jpg\",\"name\":\"program_landscape_1920_912\",\"udpate\":false,\"width\":1920},{\"height\":960,\"imageUrl\":\"http://tve-static-bravotv.nbcuni.com/images/olympics720x960.jpg\",\"name\":\"program_portrait_720_960\",\"update\":false,\"width\":720},{\"height\":435,\"imageUrl\":\"http://tve-static-bravotv.nbcuni.com/images/olympics1280x435.jpg\",\"name\":\"program_landscape_1280_435\",\"update\":false,\"width\":1280}]"
+                "olympics_images": "[{\"height\":1134,\"imageUrl\":\"http://tve-static-bravotv.nbcuni.com/images/olympics1200x1134.jpg\",\"name\":\"program_portrait_1200_1134\",\"udpate\":false,\"width\":1200},{\"height\":912,\"imageUrl\":\"http://tve-static-bravotv.nbcuni.com/images/olympics1920x912.jpg\",\"name\":\"program_landscape_1920_912\",\"udpate\":false,\"width\":1920},{\"height\":960,\"imageUrl\":\"http://tve-static-bravotv.nbcuni.com/images/olympics720x960.jpg\",\"name\":\"program_portrait_720_960\",\"update\":false,\"width\":720},{\"height\":435,\"imageUrl\":\"http://tve-static-bravotv.nbcuni.com/images/olympics1280x435.jpg\",\"name\":\"program_landscape_1280_435\",\"update\":false,\"width\":1280}]",
+                "infohub_sign_in_links_enable": true,
+                "infohub_entry_url": "https://nbctve.zendesk.com/hc/es/categories/360000301992",
+                "infohub_subscription_url": "http://ayuda.telemundo.com/#findaprovider"
             },
             "device_image_names": {
-				"tablet": {
-				"video": "video_portrait_1200_1134_Primary,video_portrait_540_304_Primary,video_portrait_390_220_Primary,video_landscape_1920_912_Primary,video_landscape_554_312_Primary,video_landscape_439_247_Primary,video_landscape_323_182_Primary",
-				"program": "program_portrait_1200_1134_Featured-2,program_portrait_540_304_Key-Art5,program_landscape_1920_912_Key-Art5,program_landscape_1270_1200_Featured-2,program_landscape_554_312_Key-Art5,program_landscape_439_247_Key-Art5,program_landscape_436_519_Key-Art4,program_landscape_323_182_Key-Art5,program_logo_400_117_Logo-Secondary,program_logo_600_176_Logo-Secondary,program_logo_259_76_Logo-Secondary,program_logo_198_58_Logo-Secondary,program_landscape_535_300_Key-Art5"
-				},
-				"tv": {
-				"video": "video_landscape_1920_912_Primary,video_landscape_1920_915_Primary,video_landscape_702_394_Primary,video_landscape_494_278_Primary,video_landscape_390_220_Primary",
-				"program": "program_landscape_1920_912_Key-Art5,program_landscape_1284_1080_Featured,program_landscape_390_462_Thumbnail,program_landscape_702_394_Key-Art5,program_landscape_494_278_Key-Art5,program_landscape_390_220_Key-Art5,program_logo_400_117_Logo-Secondary,program_logo_600_176_Logo-Secondary,program_logo_259_76_Logo-Secondary,program_logo_198_58_Logo-Secondary"
-				},
-				"mobile": {
-				"video": "video_portrait_720_960_Primary,video_portrait_720_406_Primary,video_portrait_646_363_Primary,video_landscape_1280_435_Primary,video_landscape_533_300_Primary,video_landscape_670_375_Primary,video_landscape_440_247_Primary,video_landscape_702_394_Primary",
-				"program": "program_portrait_720_960_Key-Art4,program_portrait_720_406_Key-Art5,program_landscape_1280_435_Key-Art5,program_landscape_640_360_Key-Art5,program_landscape_590_331_Key-Art5,program_logo_400_117_Logo-Secondary,program_logo_600_176_Logo-Secondary,program_logo_259_76_Logo-Secondary,program_logo_198_58_Logo-Secondary,program_landscape_535_300_Key-Art5,program_landscape_702_394_Key-Art5"
-				}
-				},
+                "mobile": {
+                    "program": "program_portrait_720_960,program_portrait_720_406,program_landscape_1280_435,program_landscape_640_360,program_landscape_590_331,program_landscape_533_300,program_logo_400_117,program_logo_600_176,program_logo_259_76,program_logo_198_58,program_landscape_535_300,program_landscape_702_394",
+                    "video": "video_portrait_720_960,video_portrait_720_406,video_portrait_646_363,video_landscape_1280_435,video_landscape_533_300,video_landscape_670_375,video_landscape_440_247,video_landscape_590_331,video_landscape_702_394"
+                },
+                "tablet": {
+                    "program": "program_portrait_1200_1134,program_portrait_540_304,program_landscape_1920_912,program_landscape_1270_1200,program_landscape_554_312,program_landscape_439_247,program_landscape_436_519,program_landscape_323_182,program_logo_400_117,program_logo_600_176,program_logo_259_76,program_logo_198_58,program_landscape_535_300",
+                    "video": "video_portrait_1200_1134,video_portrait_540_304,video_portrait_390_220,video_landscape_1920_912,video_landscape_554_312,video_landscape_439_247,video_landscape_323_182"
+                },
+                "tv": {
+                    "program": "program_landscape_1920_912,program_landscape_1920_915,program_landscape_1284_1080,program_landscape_390_462,program_landscape_702_394,program_landscape_494_278,program_landscape_390_220,program_logo_400_117,program_logo_600_176,program_logo_259_76,program_logo_198_58",
+                    "video": "video_landscape_1920_912,video_landscape_1920_915,video_landscape_702_394,video_landscape_494_278,video_landscape_390_220"
+                }
+            },
             "font": {
                 "overlay": {
                     "font": "source_sans_pro_regular.otf",
