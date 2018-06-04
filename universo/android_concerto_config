@@ -49,8 +49,8 @@
                 "market_deeplink": "http://play.google.com/store/apps/details?id=air.com.nbcuni.com.nbcsports.liveextra",
 				"olympics_images": "[{\"height\":1134,\"imageUrl\":\"http://tve-static-bravotv.nbcuni.com/images/olympics1200x1134.jpg\",\"name\":\"program_portrait_1200_1134\",\"udpate\":false,\"width\":1200},{\"height\":912,\"imageUrl\":\"http://tve-static-bravotv.nbcuni.com/images/olympics1920x912.jpg\",\"name\":\"program_landscape_1920_912\",\"udpate\":false,\"width\":1920},{\"height\":960,\"imageUrl\":\"http://tve-static-bravotv.nbcuni.com/images/olympics720x960.jpg\",\"name\":\"program_portrait_720_960\",\"update\":false,\"width\":720},{\"height\":435,\"imageUrl\":\"http://tve-static-bravotv.nbcuni.com/images/olympics1280x435.jpg\",\"name\":\"program_landscape_1280_435\",\"update\":false,\"width\":1280}]",
                 "infohub_sign_in_links_enable": true,
-                "infohub_entry_url": "https://nbctve.zendesk.com/hc/es/categories/360000301992",
-                "infohub_subscription_url": "http://ayuda.telemundo.com/#findaprovider"
+                "infohub_entry_url": "http://ayuda.telemundo.com?utm_source=androiduniverso",
+				"infohub_subscription_url": "http://ayuda.telemundo.com?utm_source=androiduniverso#findaprovider"
             },
             "device_image_names": {
 				"tablet": {
