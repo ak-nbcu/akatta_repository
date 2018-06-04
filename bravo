@@ -28,6 +28,7 @@
                 "cloud_path_app_3_3_x": "cloudpath_nbcu_fullauth_bravo_android_prod_chrua0x750uzn6xb1wvgmn7h9zcwcjhxgio0ejze",
                 "cloud_path_app_3_3_18_2": "cloudpath_nbcu_fullauth_bravo_moat_android_prod_iced771jm2vn826nojs7blzmxg7ad9bfci1nlfyv",
                 "cloud_path_app_3_3_18_2_2": "cloudpath_nbcu_bravo_moatlive_android_slxt56ripr3er9qlh0091qz4hvq5usgzwvrq6oo4",
+				"cloud_path_app_3_4_0": "cloudpath_nbcu_bravo_moatlive_android_slxt56ripr3er9qlh0091qz4hvq5usgzwvrq6oo4",
                 "audience_manager_dpid": "20914",
                 "mixpanel_token": "c016cd0d8df6246822f5c5977bb3db0c",
                 "mixpanel_sender_id": "238710570062",
