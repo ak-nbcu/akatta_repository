@@ -1,0 +1,141 @@
+{
+    "id": "telemundo-android-v2",
+    "expandShelves": true,
+    "config": [
+        {
+            "environment": "production",
+            "global": {
+                "requestor": "telemundo",
+                "service_domain": "https://api.nbcuni.com/networks/telemundo/",
+                "concerto_service_domain": "https://api.nbcuni.com/networks/",
+                "mvpd_endpoint": "https://api.nbcuni.com/tve/mvpd/service/v2/entitlements",
+                "mvpd_details_endpoint": "https://api.nbcuni.com/tve/mvpd/service/custom-feed/mvpd_details",
+                "schedule_endpoint": "https://api.nbcuni.com/tve/schedule/v2/prod_telemundo",
+                "live_schedule_endpoint": "https://api.nbcuni.com/networks/telemundo/j/schedules",
+                "promo_schedule_endpoint": "https://promotions.nbcuniversaltech.com/content.json",
+                "preview_endpoint": "http://feed.theplatform.com/f/HNK2IC/prod-partners-android-clip?form=json&byProvider=Telemundo",
+                "promo_endpoint": "/j/promos?filter%5Bslug%5D=olympicspromotion&include=images,media",
+                "settings_path": "all_settings",
+                "new_settings": "https://policies.prod.nbcuniversaltech.com/all/%s",
+                "adode_pass_endpoint": "sp.auth.adobe.com/adobe-services",
+                "adode_pass_signedrequestorid": "qyvY4811zk2J46a7hQrltw0/sOFSJu7Rc6B519a6YWTG61ueDJ20Vpx35ddr+j2cRR7+yzNSS6Hq8rktt3LFF9zRAfBAu0KLnH1A3csd6dt0cU1zA1/mQdWp98hcDg/85SpY0ly6xekEGEf+cSauGc1rqm2ehpkGOZ7+9TMt2bznBBFDRd6prJvUashefKukJiHUYVxIC5cIGop0No5BQM8IfPZNQwgZNLKA2Nmh0JKqydVBSP6QpZ0o94zjGeBAazZ+OfK8CWj0GPKgNd5R5Wi+MH5ZffjYxiLvUs8mg8x1P6zveZi9lI6/bbWsq+dTNVUfuriSH0MJa+oFnSZIjg==",
+                "adobe_pass_requestor": "telemundo",
+                "cloud_path_secret": "B6xCpZhjIi5aljrVxOf9qNaV34AejiycLGSBSH7j",
+                "cloud_path_app": "cloudpath_telemundo_android_prod_ffbhwiyut34r7f91laazflcx5fd6zr9guhaiwpy7",
+                "cloud_path_secret_3_1_x": "B6xCpZhjIi5aljrVxOf9qNaV34AejiycLGSBSH7j",
+                "cloud_path_app_3_1_x": "cloudpath_nbcu_telemundo_gracenote_android_prod_rteq3cf7opxzqqypcqwc6dutl5s05u7t453bazft",
+                "cloud_path_secret_3_3_x": "",
+                "cloud_path_app_3_3_x": "cloudpath_nbcu_fullauth_telemundo_android_prod_juxf9lw0y5crq3zvzs7fe3s9beod0ba2jewj7tpt",
+                "cloud_path_app_3_3_18_2_2": "cloudpath_nbcu_fullauth_telemundo_moat_android_prod_gz2wj3keiqoop1jx4fvepzwh7yx32o65xd6s0g9e",
+                "audience_manager_dpid": "20914",
+                "mixpanel_token": "9fc5928b244528648e5c41392585fcf2",
+                "mixpanel_sender_id": "196147874459",
+                "omniture_json": "ADBMobileconfig.json",
+                "kochava_app_id": "kotelemundo-now----android----nbcu5605bbaec8187",
+                "asset": "http://tve-assets.com/android/assets.zip",
+                "api_key": "z2t6mOO7MsIbKAk2VnMf/hnt7Wb0JULR4nMd8eNQRzU99AgIBP2MmxukGjGcRLwb",
+                "concerto_api_key": "pnlumBpQ2vsvzd0mAbOQGhlPM+M8cu7A7NehBnvx3c4=",
+                "live_schedule_api_key": "jp4k3u878bgsjpzf2nme9hdy",
+                "flush_cache": false,
+                "external_services_cache": 0,
+                "cpc_restart_wait_time": 30,
+                "cpc_restart_count": 3,
+                "app_version": 3,
+                "is_olympics": false,
+                "sports_package": "air.com.nbcuni.com.nbcsports.liveextra",
+                "sports_deeplink": "air.com.nbcuni.com.nbcsports.liveextra://brand/rio-olympics/",
+                "market_deeplink": "http://play.google.com/store/apps/details?id=air.com.nbcuni.com.nbcsports.liveextra",
+                "olympics_images": "[{\"height\":1134,\"imageUrl\":\"http://testusatve-static.nbcuni.com/sites/usa/files/styles/program_portrait_1200_1134/public/2016/02/csi_1200x1200__901489_72851_itok_JMmOSu8E.png\",\"name\":\"program_portrait_1200_1134\",\"udpate\":false,\"width\":1200},{\"height\":912,\"imageUrl\":\"http://testusatve-static.nbcuni.com/sites/usa/files/styles/program_landscape_1920_912/public/2016/04/csi_show_2560x1440__870762_72851_itok_PF5sRfYA.jpg\",\"name\":\"program_landscape_1920_912\",\"udpate\":false,\"width\":1920},{\"height\":960,\"imageUrl\":\"http://testusatve-static.nbcuni.com/sites/usa/files/styles/program_portrait_720_960/public/2016/03/csi_show_1440x2560__915213_72851_itok_QNZ_SuX9.png\",\"name\":\"program_portrait_720_960\",\"update\":false,\"width\":720},{\"height\":435,\"imageUrl\":\"http://testusatve-static.nbcuni.com/sites/usa/files/styles/program_landscape_1280_435/public/2016/04/csi_show_2560x1440__870762_72851_itok_mnenoBYF.jpg\",\"name\":\"program_landscape_1280_435\",\"update\":false,\"width\":1280}]"
+            },
+            "device_image_names": {
+				"tablet": {
+				"video": "video_portrait_1200_1134_Primary,video_portrait_540_304_Primary,video_portrait_390_220_Primary,video_landscape_1920_912_Primary,video_landscape_554_312_Primary,video_landscape_439_247_Primary,video_landscape_323_182_Primary",
+				"program": "program_portrait_1200_1134_Featured-2,program_portrait_540_304_Key-Art5,program_landscape_1920_912_Key-Art5,program_landscape_1270_1200_Featured-2,program_landscape_554_312_Key-Art5,program_landscape_439_247_Key-Art5,program_landscape_436_519_Key-Art4,program_landscape_323_182_Key-Art5,program_logo_400_117_Logo-Secondary,program_logo_600_176_Logo-Secondary,program_logo_259_76_Logo-Secondary,program_logo_198_58_Logo-Secondary,program_landscape_535_300_Key-Art5"
+				},
+				"tv": {
+				"video": "video_landscape_1920_912_Primary,video_landscape_1920_915_Primary,video_landscape_702_394_Primary,video_landscape_494_278_Primary,video_landscape_390_220_Primary",
+				"program": "program_landscape_1920_912_Key-Art5,program_landscape_1284_1080_Featured,program_landscape_390_462_Thumbnail,program_landscape_702_394_Key-Art5,program_landscape_494_278_Key-Art5,program_landscape_390_220_Key-Art5,program_logo_400_117_Logo-Secondary,program_logo_600_176_Logo-Secondary,program_logo_259_76_Logo-Secondary,program_logo_198_58_Logo-Secondary"
+				},
+				"mobile": {
+				"video": "video_portrait_720_960_Primary,video_portrait_720_406_Primary,video_portrait_646_363_Primary,video_landscape_1280_435_Primary,video_landscape_533_300_Primary,video_landscape_670_375_Primary,video_landscape_440_247_Primary,video_landscape_702_394_Primary",
+				"program": "program_portrait_720_960_Key-Art4,program_portrait_720_406_Key-Art5,program_landscape_1280_435_Key-Art5,program_landscape_640_360_Key-Art5,program_landscape_590_331_Key-Art5,program_logo_400_117_Logo-Secondary,program_logo_600_176_Logo-Secondary,program_logo_259_76_Logo-Secondary,program_logo_198_58_Logo-Secondary,program_landscape_535_300_Key-Art5,program_landscape_702_394_Key-Art5"
+				}
+				},
+            "font": {
+                "overlay": {
+                    "font": "museo_sans_500.otf",
+                    "case": "sentence",
+                    "size": 34,
+                    "leading": 5,
+                    "kerning": 0.034
+                },
+                "headline_1": {
+                    "font": "museo_sans_500.otf",
+                    "case": "caps",
+                    "size": 58
+                },
+                "headline_2": {
+                    "font": "museo_sans_500.otf",
+                    "case": "caps",
+                    "size": 44
+                },
+                "headline_3": {
+                    "font": "museo_sans_500.otf",
+                    "case": "title",
+                    "size": 38
+                },
+                "headline_4": {
+                    "font": "museo_sans_500.otf",
+                    "case": "title",
+                    "size": 34
+                },
+                "section_title_1": {
+                    "font": "museo_sans_500.otf",
+                    "case": "caps",
+                    "size": 38
+                },
+                "section_title_2": {
+                    "font": "museo_sans_700.otf",
+                    "case": "caps",
+                    "size": 28
+                },
+                "sub_headline_2": {
+                    "font": "museo_sans_700.otf",
+                    "case": "caps",
+                    "size": 26
+                },
+                "cta_1": {
+                    "font": "museo_sans_700.otf",
+                    "case": "caps",
+                    "size": 26
+                },
+                "cta_2": {
+                    "font": "museo_sans_700.otf",
+                    "case": "caps",
+                    "size": 28
+                },
+                "menu_2": {
+                    "font": "museo_sans_500.otf",
+                    "case": "title",
+                    "size": 18
+                },
+                "caption_1": {
+                    "font": "museo_sans_500.otf",
+                    "case": "title",
+                    "size": 18
+                },
+                "flag": {
+                    "font": "museo_sans_500.otf",
+                    "case": "caps",
+                    "size": 19
+                },
+                "body": {
+                    "font": "museo_sans_500.otf",
+                    "case": "sentence",
+                    "size": 26,
+                    "leading": 14
+                }
+            }
+        }
+    ]
+}
