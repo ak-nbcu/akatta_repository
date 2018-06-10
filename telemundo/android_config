@@ -14,7 +14,7 @@
                 "live_schedule_endpoint": "https://api.nbcuni.com/networks/telemundo/j/schedules",
                 "promo_schedule_endpoint": "https://promotions.nbcuniversaltech.com/content.json",
                 "preview_endpoint": "http://feed.theplatform.com/f/HNK2IC/prod-partners-android-clip?form=json&byProvider=Telemundo",
-                "promo_endpoint": "/j/promos?filter%5Bslug%5D=olympicspromotion&include=images,media",
+				"promo_endpoint": "/j/promos?filter%5Bslug%5D=promo&include=images,media",
                 "settings_path": "all_settings",
                 "new_settings": "https://policies.prod.nbcuniversaltech.com/all/%s",
                 "adode_pass_endpoint": "sp.auth.adobe.com/adobe-services",
@@ -27,6 +27,7 @@
                 "cloud_path_secret_3_3_x": "",
                 "cloud_path_app_3_3_x": "cloudpath_nbcu_fullauth_telemundo_android_prod_juxf9lw0y5crq3zvzs7fe3s9beod0ba2jewj7tpt",
                 "cloud_path_app_3_3_18_2_2": "cloudpath_nbcu_fullauth_telemundo_moat_android_prod_gz2wj3keiqoop1jx4fvepzwh7yx32o65xd6s0g9e",
+				"cloud_path_app_3_4_0": "cloudpath_nbcu_fullauth_telemundo_nielsen_8fb0wbb8bmrtmyif9wr3s6m1gt2xgtlgl85jalnj",
                 "audience_manager_dpid": "20914",
                 "mixpanel_token": "9fc5928b244528648e5c41392585fcf2",
                 "mixpanel_sender_id": "196147874459",
@@ -42,10 +43,13 @@
                 "cpc_restart_count": 3,
                 "app_version": 3,
                 "is_olympics": false,
-                "sports_package": "air.com.nbcuni.com.nbcsports.liveextra",
+				"sports_package": "air.com.nbcuni.com.telemundo.envivo",
                 "sports_deeplink": "air.com.nbcuni.com.nbcsports.liveextra://brand/rio-olympics/",
-                "market_deeplink": "http://play.google.com/store/apps/details?id=air.com.nbcuni.com.nbcsports.liveextra",
-                "olympics_images": "[{\"height\":1134,\"imageUrl\":\"http://testusatve-static.nbcuni.com/sites/usa/files/styles/program_portrait_1200_1134/public/2016/02/csi_1200x1200__901489_72851_itok_JMmOSu8E.png\",\"name\":\"program_portrait_1200_1134\",\"udpate\":false,\"width\":1200},{\"height\":912,\"imageUrl\":\"http://testusatve-static.nbcuni.com/sites/usa/files/styles/program_landscape_1920_912/public/2016/04/csi_show_2560x1440__870762_72851_itok_PF5sRfYA.jpg\",\"name\":\"program_landscape_1920_912\",\"udpate\":false,\"width\":1920},{\"height\":960,\"imageUrl\":\"http://testusatve-static.nbcuni.com/sites/usa/files/styles/program_portrait_720_960/public/2016/03/csi_show_1440x2560__915213_72851_itok_QNZ_SuX9.png\",\"name\":\"program_portrait_720_960\",\"update\":false,\"width\":720},{\"height\":435,\"imageUrl\":\"http://testusatve-static.nbcuni.com/sites/usa/files/styles/program_landscape_1280_435/public/2016/04/csi_show_2560x1440__870762_72851_itok_mnenoBYF.jpg\",\"name\":\"program_landscape_1280_435\",\"update\":false,\"width\":1280}]"
+                "market_deeplink": "http://play.google.com/store/apps/details?id=air.com.nbcuni.com.nbcsports.liveextra
+				"olympics_images": "[{\"height\":1134,\"imageUrl\":\"http://testusatve-static.nbcuni.com/sites/usa/files/styles/program_portrait_1200_1134/public/2016/02/csi_1200x1200__901489_72851_itok_JMmOSu8E.png\",\"name\":\"program_portrait_1200_1134\",\"udpate\":false,\"width\":1200},{\"height\":912,\"imageUrl\":\"http://testusatve-static.nbcuni.com/sites/usa/files/styles/program_landscape_1920_912/public/2016/04/csi_show_2560x1440__870762_72851_itok_PF5sRfYA.jpg\",\"name\":\"program_landscape_1920_912\",\"udpate\":false,\"width\":1920},{\"height\":960,\"imageUrl\":\"http://testusatve-static.nbcuni.com/sites/usa/files/styles/program_portrait_720_960/public/2016/03/csi_show_1440x2560__915213_72851_itok_QNZ_SuX9.png\",\"name\":\"program_portrait_720_960\",\"update\":false,\"width\":720},{\"height\":435,\"imageUrl\":\"http://testusatve-static.nbcuni.com/sites/usa/files/styles/program_landscape_1280_435/public/2016/04/csi_show_2560x1440__870762_72851_itok_mnenoBYF.jpg\",\"name\":\"program_landscape_1280_435\",\"update\":false,\"width\":1280}]",
+				"infohub_sign_in_links_enable": true,
+				"infohub_entry_url": "http://ayuda.telemundo.com?utm_source=androidtelemundo",
+				"infohub_subscription_url": "http://ayuda.telemundo.com?utm_source=androidtelemundo#findaprovider"
             },
             "device_image_names": {
 				"tablet": {
